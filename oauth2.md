@@ -39,6 +39,20 @@ Grant process mostly uses an authorization code separate to a token. Auth Code g
 -   Application asks for resource directly
 -   No user involvement required as resource is not owned by user
 
+```typescript
+const token = authorizationServer.token({
+    header: {
+        Authorization: "Basic ",
+        contentType: "application/x-www-formurlencoded",
+    },
+    content: {
+        grant_type: "client_credentials",
+        scope: scope,
+        resource: apiIdentifier,
+    },
+});
+```
+
 ## Best Practices
 
 -   Common to use Refresh Tokens, limiting session time of token
