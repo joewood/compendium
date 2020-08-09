@@ -6,11 +6,13 @@
 
 Used to grant access to an application to a resource owned by a user through an authorization service.
 
-<div class="mermaid">
+```mermaid
 graph TD
-    A-->B;
-    A-->C;
-</div>
+    User-->Application;
+    User-->Authorization;
+    User-->Resource;
+    Application-->Resource;
+```
 
 ### Grant Types
 
