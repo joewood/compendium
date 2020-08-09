@@ -7,7 +7,7 @@
 Used to grant access to an application to a resource owned by a user through an authorization service.
 
 <div class="mermaid">
-graph TD;
+graph TD
     A-->B;
     A-->C;
 </div>
