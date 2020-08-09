@@ -4,9 +4,11 @@ layout: default
 
 {{ content }}
 
+<script src="https://unpkg.com/browse/mermaid@8.6.4/dist/mermaid.min.js"></script>
+
 <script type="text/javascript">
-  // Hack: Replace page-link with "Page Title"
-  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
-    a.innerText = a.title;
-  });
+    // Hack: Replace page-link with "Page Title"
+    document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
+        a.innerText = a.title;
+    });
 </script>
