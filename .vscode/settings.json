@@ -9,5 +9,9 @@
   },
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "cSpell.words": [
+    "OIDC",
+    "usecase"
+  ]
 }
