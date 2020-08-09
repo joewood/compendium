@@ -2,7 +2,9 @@
 
 ## Security
 
--   [Oauth](./security.md)
+-   [Security](./security.md)
+    -   [OAuth2](./oauth2.md)
+    -   [Open ID Connect](./oidc.md)
 
 ## Cloud Providers
 
