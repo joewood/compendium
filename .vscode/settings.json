@@ -13,5 +13,7 @@
   "cSpell.words": [
     "OIDC",
     "usecase"
-  ]
+  ],
+  "markdown.preview.fontSize": 13,
+  "markdown.preview.scrollEditorWithPreview": false
 }
